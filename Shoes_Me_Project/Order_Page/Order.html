@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>ShoesMe</title>
+        <link rel="icon" href="images/logo.ico" />
+        <link rel="stylesheet" href="css/bootstrap.css" />
+        <link rel="stylesheet" href="css/Order.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    </head>
+
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+        <div class="big-title">
+                    <h2 class="title">Orders</h2>
+                    <span class="ligne"> </span>
+                </div>
+
+        <div class="container">
+            <div class="text-center">
+                <!-- pciking you favorite brand-->
+                <form id="MyBrands">
+                    <p>Choose your faviorite brand of shoes you want to order</p>
+                    <div>
+                        <button type="button" id="LOGO1" class="btn" onclick="myfun('TemprLand')"><img src="images/TemprLand.webp" /></button>
+
+                        <button type="button" class="btn" onclick="myfun('Adidas')"><img src="images/Adidas.webp" /></button>
+
+                        <button type="button" class="btn" onclick="myfun('Fila')"><img src="images/Fila.webp" /></button>
+
+                        <button type="button" class="btn" onclick="myfun('K-Swiss')"><img src="images/K_Swiss.webp" /></button>
+
+                        <button type="button" class="btn" onclick="myfun('Diadora')"><img src="images/Diadora.webp" /></button>
+                    </div>
+                    <div>
+                        <button type="button" class="btn" onclick="myfun('Nike')"><img src="images/Nike.webp" /></button>
+
+                        <button type="button" class="btn" onclick="myfun('Levis')"><img src="images/Levi's.webp" /></button>
+
+                        <button type="button" class="btn" onclick="myfun('CAT')"><img src="images/Cat.webp" /></button>
+
+                        <button type="button" class="btn" onclick="myfun('PUMA')"><img src="images/Puma.webp" /></button>
+
+                        <button type="button" class="btn" onclick="myfun('DC_Shoes')"><img src="images/DC.webp" /></button>
+                    </div>
+                </form>
+
+                <div class="showbtn-result">
+                    <input type="text" id="myid" disabled />
+                    <input type="text" id="myid2" disabled required />
+                </div>
+                <!--next page function-->
+                <div class="next_btn">
+                    <button onclick="Next()">Continue</button>
+                </div>
+            </div>
+        </div>
+        <!-- error and succes message-->
+        <div class="Error" id="Error101" aria-hidden="true"><i class="far fa-times-circle"></i>One field or more are invalid</div>
+
+        <div class="Succes" id="Succes101" aria-hidden="true"><i class="fas fa-check"></i>Form subbmited</div>
+
+        <div class="footer">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+            <i class="fa fa-pinterest" aria-hidden="true"></i>
+        </div>
+        <script src="js/script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,174 @@
+.btn {
+    margin: 25px 10px 10px 10px;
+    height: 100px;
+    width: 110px;
+}
+.btn img {
+    width: 100%;
+}
+
+.navbar-dark .navbar-nav .nav-link:active {
+    color: #007bff !important ;
+}
+
+form p {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+#myid {
+    color: white;
+    background: rgb(207, 207, 207);
+    border: 2px solid !important;
+    outline: none;
+    border: 0px;
+    width: 85%;
+    height: 100%;
+    overflow: hidden;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 22px;
+    text-align: center;
+}
+
+#myid2 {
+    position: absolute;
+    left: 44%;
+    text-align: center;
+    top: 36%;
+    border-radius: 30px;
+    border: 0px;
+    outline: none;
+    background: black;
+    width: 130px;
+    height: 35px;
+    display: none;
+    color: white;
+}
+
+.showbtn-result {
+    height: 100px;
+    width: 100%;
+    background: white;
+    position: relative;
+}
+
+.next_btn {
+    padding-top: 30px;
+}
+.next_btn button {
+    display: block;
+    color: black;
+    background: white;
+    width: 90px;
+    padding: 6px 0px 6px 0px;
+    font-size: 15px;
+    font-weight: 700;
+    margin: auto;
+    border: 1px solid;
+    cursor: pointer;
+    text-decoration: none !important;
+}
+
+.hier_text {
+    margin: 20px 0px -7px 36px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.part-time {
+    width: 110px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.full-time {
+    width: 110px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.active,
+.btn:hover {
+    color: white;
+    background: blue;
+    border: none;
+    outline: none;
+}
+
+#nxt {
+    text-align: center;
+    height: 50px;
+    margin: -52px 0px 0px 235px;
+    display: block;
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 7px;
+    width: 15%;
+    border: 1px solid;
+}
+
+.Error {
+    display: none;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    padding: 10px 0;
+    background-color: red;
+    text-align: center;
+    box-shadow: -1px -1px 11px 0px;
+    width: 15%;
+}
+.Error .far {
+    padding-right: 10px;
+    color: white;
+}
+.Succes {
+    display: none;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    padding: 10px 0;
+    background-color: green;
+    text-align: center;
+    box-shadow: -1px -1px 11px 0px;
+    width: 10%;
+}
+.Succes .fas {
+    padding-right: 10px;
+    color: white;
+}
+
+.footer {
+    padding-top: 50px;
+    background-color: white;
+    text-align: center;
+}
+.footer .fa-facebook-square {
+    color: #4b4bea;
+}
+.footer .fa-twitter {
+    color: #00c0ff;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.footer .fa-linkedin {
+    color: #00c0ff;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.footer .fa-instagram {
+    color: red;
+}

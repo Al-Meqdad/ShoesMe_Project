@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ShoesMe_Project</title>
+        <meta charset="utf-8" />
+
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/Main.css" />
+        <link rel="icon" type="image/png" sizes="32x32" href="images/32.ico" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    </head>
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+        <!--navbar-->
+        <nav class="navbar navbar-inverse navbar-fixed-top" id="navbar">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Shoes Me </a>
+                </div>
+                <div>
+                    <div id="navbarCollapse" class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav">
+                            <li><a class="active" href="#home">Home</a></li>
+                            <li><a class="active" href="#For_Sale">For sale</a></li>
+                            <li><a href="#Why_Us">Why ShoesMe !</a></li>
+                            <li><a href="#How_it_Works">How it works </a></li>
+                            <li><a href="#About_Us">About us</a></li>
+                            <li><a href="Order_Page/Order.html" target="_blank">Orders</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a data-toggle="modal" data-target="#myModal">Login</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!--Images slide and home page-->
+        <div id="home" class="home" data-ride="carousel">
+            <img class="slides" src="images/1.webp" alt="Types_OF_Shoes" />
+            <img class="slides" src="images/2.webp" alt="Sports" />
+            <img class="slides" src="images/3.webp" alt="Chicago" />
+        </div>
+        <!--For sale section-->
+        <div class="site-section For_Sale" id="For_Sale" data-aos="fade-up" data-aos-delay="60" data-aos-duration="500" data-aos-easing="ease-in-out">
+            <div class="container">
+                <div class="big-title">
+                    <h2 class="title">For Sale</h2>
+                    <span class="ligne"> </span>
+                </div>
+                    <div class="col-sm-4 image-box price-img-div1">
+                        <div class="flip-box">
+                            <div class="flip-box-inner">
+                                <div class="flip-box-front">
+                                    <img src="images/Timberland_boots.webp" alt="Paris" />
+                                </div>
+                                <div class="flip-box-back">
+                                    <h2>Timberland original boots</h2>
+                                    <p>Hurry up and buy these wonderful Timberland boots before they run out of stock</p>
+                                    <p>with 75% off the orginal price</p>
+                                    <p>only 49.99$ plus taxes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 image-box price-img-div2">
+                        <div class="flip-box">
+                            <div class="flip-box-inner">
+                                <div class="flip-box-front">
+                                    <img src="images/PUMA.webp" alt="Paris" />
+                                </div>
+                                <div class="flip-box-back">
+                                    <h2>Puma women’s floral print trainer</h2>
+                                    <p>Ladies this one is for you becuase we care</p>
+                                    <p>Beautiful flower design shoes from PUMA 60% off</p>
+                                    <p>Only 39.99$</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 image-box price-img-div3">
+                        <div class="flip-box">
+                            <div class="flip-box-inner">
+                                <div class="flip-box-front">
+                                    <img src="images/Messi_special.webp" alt="Messi_special_Adidas" />
+                                </div>
+
+                                <div class="flip-box-back">
+                                    <h2>Messi Special Edition Adidas shoes</h2>
+                                    <p>Our third offer is The adidas Special Edition 'Messi 15 Years' Nemeziz</p>
+                                    <p>A once in a lifetime offer 30%% off, don't miss it only for football lovers</p>
+                                    <p>Only 79.99$</p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                    <div class="col-sm-4 image-box price-img-div4">
+                        <div class="flip-box">
+                            <div class="flip-box-inner">
+                                <div class="flip-box-front">
+                                    <img src="images/Adidas_Comfy.webp" alt="Adidas" />
+                                </div>
+
+                                <div class="flip-box-back">
+                                    <h2>Adidas ZX 2k 4D</h2>
+                                    <p>The most amazing, original and most comfortable shoes you would lay your feet in</p>
+                                    <p>50% off the original price crazy sales</p>
+                                    <p>Only 49.99$</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 image-box price-img-div5">
+                        <div class="flip-box">
+                            <div class="flip-box-inner">
+                                <div class="flip-box-front">
+                                    <img src="images/Nike_Pink.webp" alt="Nike" />
+                                </div>
+                                <div class="flip-box-back">
+                                    <h2>Nike Women's Air Max 270</h2>
+                                    <p>This is for our beautiful ladies a pink original Nike shoes</p>
+                                    <p>60% off the original price</p>
+                                    <p>Only 39.99$</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 image-box price-img-div6">
+                        <div class="flip-box">
+                            <div class="flip-box-inner">
+                                <div class="flip-box-front">
+                                    <img src="images/Adidas_Shoes.webp" alt="Adidas" />
+                                </div>
+                                <div class="flip-box-back">
+                                    <h2>White Adidas Shoes</h2>
+                                    <p>For our last offer of the first month of summer we present you our best offer an Adidas original beautiful white shoes for both men and women</p>
+                                    <p>70% off the original price</p>
+                                    <p>Only 29.99$</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <!-- Our collection page inside the for sale section-->
+            <div class="Our_Collection container" id="Our_Collection" data-aos="fade-up" data-aos-delay="60" data-aos-duration="500" data-aos-easing="ease-in-out">
+                 <div class="big-title">
+                    <h2 class="title">Our Collection</h2>
+                    <span class="ligne"> </span>
+                </div>
+                <div class="col-sm-4 boxes">
+                    <img src="images/a.webp"/>
+                </div>
+                <div class="col-sm-4  boxes">
+                    <img src="images/b.webp"/>
+                </div>
+
+                <div class="col-sm-4  boxes ">
+                    <img src="images/c.webp"/>
+                </div>
+
+                <div class="col-sm-4  boxes">
+                    <img src="images/d.webp"/>
+                </div>
+
+                <div class="col-sm-4  boxes">
+                    <img src="images/e.webp"/>
+                </div>
+
+                <div class="col-sm-4  boxes">
+                    <img src="images/f.webp"/>
+                </div>
+            </div>
+        </div>
+        <!--Why Us section-->
+        <div class="site-section Why_Us" id="Why_Us" data-aos="fade-up" data-aos-delay="60" data-aos-duration="500" data-aos-easing="ease-in-out">
+            <div class="container">
+                <div class="big-title">
+                    <h2 class="title">Why ShoesMe?</h2>
+                    <span class="ligne"> </span>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4" >
+                        <div class="part effect-black" >
+                            <i aria-hidden="true"></i>
+                            <img class="happy" src="https://img.icons8.com/cotton/64/000000/happy-study--v2.png" />
+                            <h2 class="title">Client satisfaction</h2>
+                            <div class="paragraph">
+                                <p>
+                                    Customer service and client satisfaction is one of our top priorties on this site we want to make you all feel safe,happy, and satisfied <span id="dots">...</span>
+                                    <span style="display: none;" id="more">
+                                        with our 24h online support we shall make you happy, with providing what ever you need we will make you satisfied and with us you don't need to wear a mask to shop online you will be safe
+                                    </span>
+                                </p>
+                                <a class="btn" id="myBtn">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="part effect-black">
+                            <i aria-hidden="true"></i>
+                            <img class="first" src="https://img.icons8.com/pastel-glyph/64/000000/sneakers--v3.png"/ >
+                            <img class="seconde" src="https://img.icons8.com/ios/50/000000/mens-shoe.png" />
+                            <h2 class="title">Our product</h2>
+                            <div class="paragraph">
+                                <p>
+                                    We got everything you need. Our products are original from around the world and from well known brands<span id="dots">...</span>
+                                    <span style="display: none;" id="more">
+                                        with ShoesMe we offer much more than just one type of product, we got formal, sport, and even pajamas for you it's like an all in one deal plus you don't get tired looking for what you want just choose
+                                        which category and look for yourself
+                                    </span>
+                                </p>
+                                <a class="btn" id="myBtn">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="part effect-black">
+                            <i class="fa fa-male fa-2x first" aria-hidden="true"></i>
+                            <i class="fa fa-female fa-2x seconde" aria-hidden="true"></i>
+                            <h2 class="title">Diversity</h2>
+                            <div class="paragraph">
+                                <p>
+                                    Some people ask is this site for males only, the answer is simply no my goal is to create the biggest and best online hoes shop and 
+                                    <span id="dots">...</span>
+                                    <span style="display: none;" id="more">
+                                    it's not going to be only for men we got something for you too ladies so what are you waiting for join our website and search for what our heart desire</span>
+                                </p>
+                                <a class="btn" id="myBtn">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <!-- More about Why us-->
+            <div class="container" data-aos="fade-up" data-aos-delay="60" data-aos-duration="500" data-aos-easing="ease-in-out">
+                <div class="tabs-block text-center">
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active">
+                            <a href="#Goal" class="fas fa-bullseye" aria-controls="home" role="tab" data-toggle="tab"> Our goal</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#Use" class="fas fa-question" aria-controls="Use" role="tab" data-toggle="tab"> How to use</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#Product" class="fa fa-shopping-cart" aria-controls="Product" role="tab" data-toggle="tab"> Products</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#Support" class="fas fa-hands-helping" aria-controls="Support" role="tab" data-toggle="tab">Our support</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="Goal" data-aos="fade-right" data-aos-delay="80" data-aos-duration="700" data-aos-easing="ease-in-out">
+                        <img src="images/our-goal.webp"/ >
+                        <p>
+                            What we aim for in this website is to make it easier to people to buy things without risking their lives, and what I mean by that : we all saw what happened in 2020 the panamedic caused by the corona virus we
+                            couldn't move from our houses it was a risk on our lives, So we aim to fix these issues by creating the first online shop for shoes. And I'm not going to stop here next i'm going to create the first website and
+                            app for online grocery shopping.
+                        </p>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="Use" data-aos="fade-left" data-aos-delay="80" data-aos-duration="700" data-aos-easing="ease-in-out">
+                        <img src="images/Thinking.webp" />
+                        <p>Our site is so easy to use, it's not complix at all here are the step on how to use our site :</p>
+                        <ul>
+                            <li>step 1 : sign up into our website.</li>
+                            <li>step 2 : check our products or serach what you want</li>
+                            <li>step 3 : pick the product that you like</li>
+                            <li>step 4 : click buy and contact us for more information about the delivery and how to pay</li>
+                        </ul>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="Product" data-aos="fade-up" data-aos-delay="80" data-aos-duration="700" data-aos-easing="ease-in-out">
+                        <img src="images/product.webp" />
+                        <p>you might be wondering what products our site can provide for you, or is it for both genders to answer your questions read the following:</p>
+                        <ul>
+                            <li>1-We provide various original products from around the world like : Nike, Adidas, Puma etc...</li>
+                            <li>2-We don't just stop at sport shoes we provide more and more choices to those who want to buy formal or elegant shoes for suits</li>
+                            <li>3-Our site is not for men only we got women shoes as well</li>
+                        </ul>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="Support" data-aos="fade-up" data-aos-delay="80" data-aos-duration="700" data-aos-easing="ease-in-out">
+                        <img src="images/support.webp" />
+                        <p>for your safety and service our support team will be online 24/7 to ensure everything is ok with your order there is no mistakes or problems with the order.</p>
+                        <p>if you have any questions about other things or about the site head to <a href="contact.html" target="_blank">Contact Us</a> page and submit a form so we can answer your question</p>
+                    </div>
+                </div>
+            </div>
+            <!--What we deliver inside of Why Us section-->
+            <div class="container" data-aos="fade-up" data-aos-delay="60" data-aos-duration="500" data-aos-easing="ease-in-out">
+                <div class="big-title">
+                    <h2 class="title">What we deliver</h2>
+                    <span class="ligne"> </span>
+                </div>
+
+                <div class="dell">
+                    <div class="col-md-6 dell-box" data-aos="fade-right" >
+                        <h1>Benefits we offer</h1>
+                        <ul>
+                            <li><i class="fa fa-ticket"></i> Fast Delivery</li>
+                            <li><i class="fa fa-ticket"></i> Lower Inventory Costs</li>
+                            <li><i class="fa fa-ticket"></i> Reduce Your Shipping Costs</li>
+                            <li><i class="fa fa-ticket"></i> Raise Your Margins</li>
+                            <li><i class="fa fa-ticket"></i> Avoid Lost Packages and Letters</li>
+                            <li><i class="fa fa-ticket"></i> Provide Exceptional Service to Your Customers</li>
+                            <li><i class="fa fa-ticket"></i> Increase Business Productivity</li>
+                            <li><i class="fa fa-ticket"></i> Eliminate Your Fleet</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 delivery-image-box">
+                        <img src="images/deleviry.jpg" data-aos="fade-left"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--How it works section-->
+        <div class="site-section How_it_Works" id="How_it_Works" data-aos="fade-up" data-aos-delay="60" data-aos-duration="500" data-aos-easing="ease-in-out">
+            <div class="big-title">
+                <h2 class="title">How it works</h2>
+                <span class="ligne"> </span>
+            </div>
+            <div class="container">
+                <div class="col-md-3">
+                    <div class="work-box">
+                        <div class="number">
+                            <h3>1</h3>
+                        </div>
+                        <h2>Sign Up</h2>
+                        <p>Welcome to our shoes online store ShoesMe
+                        If you are new hit the sign up button and start shopping <span id="dots"></span>
+                        <span style="display: none;" id="more">from our site</span></p>
+                        <button class="btn" id="myBtn">Read more</button>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="work-box">
+                        <div class="number">
+                            <h3>2</h3>
+                        </div>
+                        <h2>Shopping</h2>
+                        <p>If you are reading this you are probably wondering how am I going to start shopping? It's much easier
+                        <span id="dots">. </span>
+                        <span style="display: none;" id="more">
+                            It's much easier thank you think all you need to choose whatever your favorite brand is and start shooping, plus we got a sales section which is always on fire don't forget to check it out every month
+                        </span></p>
+                        <button class="btn" id="myBtn">Read more</button>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="work-box">
+                        <div class="number">
+                            <h3>3</h3>
+                        </div>
+                        <h2>Payment & delivery</h2>
+                        <p>One of the first question that will pop into your head is how are you going to pay?</p>
+                        <span id="dots"></span>
+                        <span style="display: none;" id="more">
+                            <p>Read the following instructions</p>
+                            <ul>
+                                <li>What is unique about us is once you order a product it would be delivered to you whenever you want to</li>
+                                <li>Once the product arrive you will review it and test it if it meets your requirements pay for it does not just give it back and you will be only charged the delivery fess</li>
+                            </ul>
+                            <p>that's it as simple as that just join our website and start your shopping</p>
+                        </span>
+                        <button class="btn" id="myBtn">Read more</button>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="work-box">
+                        <div class="number">
+                            <h3>4</h3>
+                        </div>
+                        <h2>Didn't find what you desire</h2>
+                        <p>If you didn't find the thing you are looking for just head up to contact us and tell us
+                        <span id="dots"></span>
+                        <span style="display: none;" id="more"> what you need we will provide it for you in no time</span></p>
+                        <button class="btn" id="myBtn">Read more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--About Us section-->
+        <div class="site-section About_Us" id="About_Us" data-aos="fade-up" data-aos-delay="60" data-aos-duration="500" data-aos-easing="ease-in-out">
+            <div class="big-title">
+                <h2 class="title">About Us</h2>
+                <span class="ligne"> </span>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="part sequand-effect-black">
+                            <h4 class="text-center">
+                                <div class="con">
+                                    <p class="prix single">1<span class="add single text-center"></span></p>
+                                </div>
+                            </h4>
+                            <div class="paragraph paragraph1">
+                                <p>
+                                    ShoesMe is a website that aims to change how people shop for shoes by creating the Best online shoes store for men and women which is easy to use and safe, not only safe for your information but also
+                                    safe for your health<span id="dots">...</span>
+                                    <span style="display: none;" id="more">
+                                        because it prevents you from contacting people while shopping from us which prevents you from getting Coivd-19 plus you don't need a mask when you shop from ShoesMe
+                                    </span>
+                                </p>
+                                <button class="btn" id="myBtn">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="part sequand-effect-black">
+                            <h4 class="text-center">
+                                <div class="con">
+                                    <p class="prix single">2<span class="add single text-center"></span></p>
+                                </div>
+                            </h4>
+                            <div class="paragraph paragraph1">
+                                <p>
+                                    Our website includes the latest products on the market everything you need we have from formal shoes to sport shoes to pajamas it's like all in one deal . What are you waiting for come join our
+                                    website and start your shopping. <span id="dots">...</span><span style="display: none;" id="more">If we don't have the item you want just send us a request and we will bring that item to you</span>
+                                </p>
+                                <button class="btn" id="myBtn">Read more</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="part sequand-effect-black">
+                            <h4 class="text-center">
+                                <div class="con">
+                                    <p class="prix single">3<span class="add single text-center"></span></p>
+                                </div>
+                            </h4>
+                            <div class="paragraph paragraph1">
+                                <p>
+                                    You don't have to pay before reviewing our product what I mean by that is you can come to the nearest shop that works with ShoesMe website and ask for the dlievery there you can test it and pay for it if
+                                    it meets your requirments, <span id="dots">...</span>
+                                    <span style="display: none;" id="more">
+                                        of course by saying an online store you think it would be ridiculous to go out and visit a shop to test your shoes but we also provide test on delivery our team that will drop your shoes will check if
+                                        you requested to test those shoes before paying and of course if you don't need them just return them
+                                    </span>
+                                </p>
+                                <button class="btn" id="myBtn">Read more</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <!--Login button code-->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Login form</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" name="email" />
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" name="password" />
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="button btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="button btn-primary" data-dismiss="modal" onclick="myFunction()">Login</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Footer-->
+        <div class="footer">
+            <a href="https://www.facebook.com/memee1582/" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a>
+            <a href="https://twitter.com/mqdadaljabi" target="_blank"> <i class="fab fa-twitter fa-2x"></i></a>
+            <a href="https://www.instagram.com/almeqdadjabi/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="JS/main.js"></script>
+        <script>
+            AOS.init();
+        </script>
+    </body>
+</html>
